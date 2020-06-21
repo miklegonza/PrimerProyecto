@@ -1,5 +1,7 @@
 function acciones() {
   console.log("He presionado un boton");
+  let texto1 = document.getElementById("primerBloque");
+  texto1.innerHTML += "Presioné el segundo boton jaja" + "\n";
 }
 
 //Codigos
