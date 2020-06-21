@@ -1,7 +1,12 @@
-function acciones() {
+function acciones(condicion) {
   console.log("He presionado un boton");
   let texto1 = document.getElementById("primerBloque");
-  texto1.innerHTML += "Presioné el segundo boton jaja" + "\n";
+  texto1.innerHTML += (condicion == 1) ? "Presioné el primer boton jaja <br/>" : "Presioné el segundo boton jaja <br/>";
+}
+
+function print(condicion) {
+  let texto2 = document.getElementById("printJS");
+  texto2.innerHTML += (condicion == 3) ? "presionaste 3<br/>" : "presionaste 4<br/>";
 }
 
 //Codigos
