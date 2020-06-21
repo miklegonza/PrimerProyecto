@@ -1,3 +1,7 @@
+function acciones() {
+  console.log("He presionado un boton");
+}
+
 //Codigos
 /*
 //variables e impresiones
