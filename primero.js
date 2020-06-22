@@ -9,6 +9,13 @@ function print(condicion) {
   texto2.innerHTML += (condicion == 3) ? "presionaste 3<br/>" : "presionaste 4<br/>";
 }
 
+function concatenar() {
+  let palabra1 = document.getElementById("palabras1");
+  let palabra2 = document.getElementById("palabras2");
+  let texto = document.getElementById("concat");
+
+  texto.innerHTML += palabra1.value + " " + palabra2.value + "<br/>";
+}
 //Codigos
 /*
 //variables e impresiones
