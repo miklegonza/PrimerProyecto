@@ -2,6 +2,7 @@ function acciones(condicion) {
   console.log("He presionado un boton");
   let texto1 = document.getElementById("primerBloque");
   texto1.innerHTML += (condicion == 1) ? "Presioné el primer boton jaja <br/>" : "Presioné el segundo boton jaja <br/>";
+  alert("♥");
 }
 
 function print(condicion) {
@@ -16,6 +17,8 @@ function concatenar() {
 
   texto.innerHTML += palabra1.value + " " + palabra2.value + "<br/>";
 }
+
+console.log("Esto es para recordarte que te amo más");
 //Codigos
 /*
 //variables e impresiones
